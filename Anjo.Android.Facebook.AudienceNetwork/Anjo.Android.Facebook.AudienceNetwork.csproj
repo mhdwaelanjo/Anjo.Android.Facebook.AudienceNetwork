@@ -7,19 +7,19 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.Facebook.AudienceNetwork</PackageId>
-		<PackageVersion>6.16.0</PackageVersion>
-		<AssemblyVersion>6.16.0</AssemblyVersion>
-		<FileVersion>6.16.0</FileVersion>
-		<Version>6.16.0</Version>
+		<PackageVersion>6.17.0</PackageVersion>
+		<AssemblyVersion>6.17.0</AssemblyVersion>
+		<FileVersion>6.17.0</FileVersion>
+		<Version>6.17.0</Version>
 		<Title>Anjo Android Facebook AudienceNetwork SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
 		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjo.Android.Facebook.AudienceNetwork</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - Facebook Audience Network SDK</Description>
-		<PackageReleaseNotes>Facebook SDK v6.16.0</PackageReleaseNotes>
+		<PackageReleaseNotes>Facebook SDK v6.17.0</PackageReleaseNotes>
 		<Copyright>Copyright (c) 2024 Wael Anjo</Copyright>
-		<PackageTags>Xamarin.Android, Facebook, AudienceNetwork, Android, Advertising, Native, Banner, Interstitial, Rewarded video, Playables</PackageTags>
+		<PackageTags>Xamarin.Android, NET MAUI, Facebook, AudienceNetwork, Android, Advertising, Native, Banner, Interstitial, Rewarded video, Playables</PackageTags>
 		<Summary>.NET for Android (formerly Xamarin.Android) Binding Library - Facebook Audience Network SDK</Summary>
 		<!-- Include symbol files (*.pdb) in the built .nupkg -->
 		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
@@ -29,7 +29,7 @@
 		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 	<ItemGroup>
-	  <None Remove="Jars\audience-network-sdk-6.16.0.aar" />
+	  <None Remove="Jars\audience-network-sdk-6.17.0.aar" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\icon.png">
