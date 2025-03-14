@@ -7,17 +7,17 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.Facebook.AudienceNetwork</PackageId>
-		<PackageVersion>6.18.0</PackageVersion>
-		<AssemblyVersion>6.18.0</AssemblyVersion>
-		<FileVersion>6.18.0</FileVersion>
-		<Version>6.18.0</Version>
+		<PackageVersion>6.19.0</PackageVersion>
+		<AssemblyVersion>6.19.0</AssemblyVersion>
+		<FileVersion>6.19.0</FileVersion>
+		<Version>6.19.0</Version>
 		<Title>Anjo Android Facebook AudienceNetwork SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
 		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjo.Android.Facebook.AudienceNetwork</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - Facebook Audience Network SDK</Description>
-		<PackageReleaseNotes>Facebook SDK v6.18.0</PackageReleaseNotes>
+		<PackageReleaseNotes>Facebook SDK v6.19.0</PackageReleaseNotes>
 		<Copyright>Copyright (c) 2025 Wael Anjo</Copyright>
 		<PackageTags>Xamarin.Android, NET MAUI, Facebook, AudienceNetwork, Android, Advertising, Native, Banner, Interstitial, Rewarded video, Playables</PackageTags>
 		<Summary>.NET for Android (formerly Xamarin.Android) Binding Library - Facebook Audience Network SDK</Summary>
@@ -29,7 +29,7 @@
 		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 	<ItemGroup>
-		<None Remove="Jars\audience-network-sdk-6.18.0.aar" />
+		<None Remove="Jars\audience-network-sdk-6.19.0.aar" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\icon.png">
@@ -46,6 +46,6 @@
 		</None>
 	</ItemGroup>
 	<ItemGroup>
-	  <PackageReference Include="Xamarin.GooglePlayServices.Basement" Version="118.4.0" />
+	  <PackageReference Include="Xamarin.GooglePlayServices.Basement" Version="118.5.0.1" />
 	</ItemGroup>
 </Project>
